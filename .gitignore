@@ -1,0 +1,4 @@
+robot/.env
+robot/__pycache__/
+robot/*.pyc
+robot/sujets_traites.json
