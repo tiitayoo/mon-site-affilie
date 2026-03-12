@@ -9,6 +9,6 @@ Trouvez les meilleurs produits Amazon grâce à nos comparatifs détaillés.
 
 ## Derniers articles
 
-{% for post in site.posts limit:10 %}
+{% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%d/%m/%Y" }}
 {% endfor %}
