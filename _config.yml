@@ -1,0 +1,12 @@
+title: "Mes Comparatifs Produits"
+description: "Comparatifs et avis pour bien choisir vos achats Amazon"
+baseurl: "/mon-site-affilie"
+url: "https://tiitayoo.github.io"
+lang: fr
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
